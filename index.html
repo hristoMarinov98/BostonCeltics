@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Boston Celtics</title>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item logo-container">
+            <a href="#"
+              ><img src="images/Logo.png" alt="Logo" class="logo"
+            /></a>
+            <h4>Bleed Green</h4>
+          </li>
+          <li class="nav-item"><a href="#news">News</a></li>
+          <li class="nav-item"><a href="#player-section">Players</a></li>
+          <li class="nav-item"><a href="#slider-section">Highlights</a></li>
+        </ul>
+      </nav>
+      <div class="news" id="news">
+        <div class="main-news">
+          <img
+            src="images/jt.jpg"
+            alt="Jayson Tatum shooting over Blake Griffin"
+          />
+          <h4>tatum scores 50 as celtics win game 3</h4>
+        </div>
+        <div class="news-side__one">
+          <img src="images/smart.jpg" alt="Marcus Smart" />
+          <h5>Smart's strong performance</h5>
+        </div>
+        <div class="news-side__two">
+          <img src="images/Tristan.jpg" alt="Tristan Thomspon" />
+          <h5>Thompson's 19pts, 13reb</h5>
+        </div>
+      </div>
+    </header>
+    <section class="player-section" id="player-section">
+      <div class="player-button-container">
+        <button class="btn-player" data-tab="1">Kemba Walker</button>
+        <button class="btn-player" data-tab="2">Marcus Smart</button>
+        <button class="btn-player" data-tab="3">Jaylen Brown</button>
+        <button class="btn-player" data-tab="4">Jayson Tatum</button>
+        <button class="btn-player" data-tab="5">Robert Williams</button>
+      </div>
+      <div class="player-info-container">
+        <div class="player-img player-img__1 hidden active">
+          <img src="images/kemba.png" alt="Kemba Walker" />
+        </div>
+        <div class="player-info player-info__1 hidden active">
+          <span>#8 Kemba Walker</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae,
+            doloremque soluta aliquid ea quidem veritatis ipsam optio
+            reprehenderit molestiae?
+          </p>
+        </div>
+        <div class="player-img player-img__2 hidden">
+          <img src="images/smart.png" alt="Marcus Smart" />
+        </div>
+        <div class="player-info player-info__2 hidden">
+          <span>#36 Marcus Smart</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae,
+            doloremque soluta aliquid ea quidem veritatis ipsam optio
+            reprehenderit molestiae?
+          </p>
+        </div>
+        <div class="player-img player-img__3 hidden">
+          <img src="images/jb.png" alt="Jaylen Brown" />
+        </div>
+        <div class="player-info player-info__3 hidden">
+          <span>#7 Jaylen Brown</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae,
+            doloremque soluta aliquid ea quidem veritatis ipsam optio
+            reprehenderit molestiae?
+          </p>
+        </div>
+        <div class="player-img player-img__4 hidden">
+          <img src="images/jt.png" alt="Jayson Tatum" />
+        </div>
+        <div class="player-info player-info__4 hidden">
+          <span>#0 Jayson Tatum</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae,
+            doloremque soluta aliquid ea quidem veritatis ipsam optio
+            reprehenderit molestiae?
+          </p>
+        </div>
+        <div class="player-img player-img__5 hidden">
+          <img src="images/rw.png" alt="Robert Williams" />
+        </div>
+        <div class="player-info player-info__5 hidden">
+          <span>#44 Robert Williams</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae,
+            doloremque soluta aliquid ea quidem veritatis ipsam optio
+            reprehenderit molestiae?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="slider-section">
+      <div class="slider">
+        <div class="slide">
+          <img src="images/tatumCH.jpg" alt="Tatum photo career high" />
+          <h4>Tatum Career High 60 Points</h4>
+        </div>
+
+        <div class="slide">
+          <img src="images/JBCH.jpg" alt="Jaylen Brown career high " />
+          <h4>Jaylen Brown Career High 42 Points</h4>
+        </div>
+
+        <div class="slide">
+          <img src="images/RWCH.jpg" alt="Robert Williams blocking a show" />
+          <h4>Robert Williams Career High 9 Blocks</h4>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+  </body>
+</html>
